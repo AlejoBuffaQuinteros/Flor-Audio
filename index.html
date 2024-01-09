@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   <link rel="Stylesheet" href="./style.css">
+   <title>Flor para el amor de mi vida</title>
+</head>
+<body>
+<audio id="audio" src="./audio.mp3" autoplay loop></audio>
+<div class="flor animate__animated animate__zoomIn animate__delay-5s animate__slow 	3s">
+  <audio><source src="" type="audio/mpeg">
+</audio>
+   <div class="centro">
+      <h1>❤</h1>
+   </div>
+   <div class="Petalo2 p1">
+   </div>
+   <div class="Petalo2 p2">
+   </div>
+   <div class="Petalo2 p3">
+   </div>
+   <div class="Petalo2 p4">
+   </div>
+   <div class="Petalo3 p1">
+   </div>
+   <div class="Petalo3 p2">
+   </div>
+   <div class="Petalo3 p3">
+   </div>
+   <div class="Petalo3 p4">
+   </div>
+   <div class="tallo"></div>
+ </div>
+
+ <script>
+   function startAudio() {
+     var audio = document.getElementById("audio");
+     audio.play();
+     document.body.removeEventListener("click", startAudio);
+   }
+
+   document.body.addEventListener("click", startAudio);
+ </script>
+</body>
+</html>
